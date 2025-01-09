@@ -96,7 +96,7 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Music Player",
     description:
       "This is a Music Player built with HTML, CSS, and JavaScript. It features play/pause functionality, a song progress bar, and navigation controls. The player is designed with a modern and minimalist interface, showcasing a song thumbnail, title, and artist, providing a smooth, interactive user experience.",
     techStack: ["HTML", "CSS", "JavaScript"],
