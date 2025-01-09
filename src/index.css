@@ -1,0 +1,31 @@
+/* Importing Tailwind's base, component, and utility layers */
+@tailwind base; 
+/* Includes Tailwind's default CSS reset and foundational styles */
+
+@tailwind components; 
+/* Includes pre-designed components that can be extended for project-specific needs */
+
+@tailwind utilities; 
+/* Includes utility classes for common CSS properties */
+
+/* Custom global styles applied through the :root pseudo-class */
+:root {
+  /* Setting the font family globally */
+  font-family: "Noto Sans", sans-serif; 
+  /* Using a clean, modern sans-serif font for consistency and readability */
+
+  /* Applying a background color for the entire application */
+  background-color: rgb(24, 3, 23); 
+  /* A dark, deep purple background sets the tone for a professional, sleek design */
+
+  /* Setting the default text color globally */
+  color: white; 
+  /* White text ensures good contrast against the dark background */
+}
+
+/* Styling for a specific class: .bg-image */
+.bg-image {
+  /* Applying a noise texture image as the background */
+  background-image: url("assets/noise.webp"); 
+  /* Ensure the file path is correct and accessible */
+}
